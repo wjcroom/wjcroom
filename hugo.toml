@@ -38,14 +38,14 @@ disqusShortname = "yourdiscussshortname"  ## ????disqus??????utteranc????
 ## ?????????
 
 [[params.links]]
-  title = "openwrt-adbyby-plus-fixbug"
-  name = "openwrt下广告屏蔽大师的资源修复"
-  url = "http://pan.ezdial.cn/a"
+  title = "主站-change-get date file frome mysite"
+  name = "openwrt下广告屏蔽大师修复"
+  url = "http://pan.ezdial.cn/nasone/a"
 
 [[params.links]]
-  title = "openwrt-adbyby-plus-fixbug备份资源"
-  name = "openwrt下广告屏蔽大师的资源修复"
-  url = "https://bak.ezdial.cn:8000/a"
+  title = "备份资源"
+  name = "openwrt下广告屏蔽大师修复"
+  url = "https://bak.ezdial.cn:8000/nasone/a"
 
 ## ?????? 
 ## ?? utteranc??,???? https://utteranc.es/
