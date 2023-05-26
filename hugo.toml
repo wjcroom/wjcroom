@@ -1,0 +1,93 @@
+baseURL = 'http://hugo.ezdial.cn/'
+languageCode = 'zh-cn'
+title = 'wjcroom-laodao'
+theme = 'maupassant'
+googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX
+#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
+## ??????????false????????
+preserveTaxonomyNames = true
+## ????URL Path???
+disablePathToLower = true
+
+hasCJKLanguage = true
+summaryLength = 140
+
+disqusShortname = "yourdiscussshortname"  ## ????disqus??????utteranc????
+
+[author]
+  name = "wjcroom"
+
+[params]
+  author = "noone"
+  subtitle = "where is me"
+  keywords = "golang,go,python,openwrt,synolog,nas"
+  description = "synolog openwrt golang AndroidPython"
+  busuanzi = true #?????????
+  googleAd = ""  #ca-pub-xxxxxxxxxxxxxx
+  localSearch = true # ??????
+
+  # ??????????static??????????????
+  customCSS = ['douban.css', 'other.css']
+  # if ['custom.css'], load '/static/css/custom.css' file
+  customJS = ['douban.js']
+  # if ['custom.js'], load '/static/js/custom.js' file
+
+  
+  toc = true  # ??????
+
+## ?????????
+
+[[params.links]]
+  title = "pan"
+  name = "pan"
+  url = "http://pan.ezdial.cn/"
+
+[[params.links]]
+  title = "pan bakup"
+  name = "pan bakeup"
+  url = "https://bak.ezdial.cn:8000"
+
+## ?????? 
+## ?? utteranc??,???? https://utteranc.es/
+[params.utteranc]
+  enable = true
+  repo = "wjcroom/wjcroom" ##?????
+  issueTerm = "pathname"
+  theme = "github-light"
+## ?? waline ????,???? https://waline.js.org/
+[params.waline]
+  enable = false
+  placeholder = "?????..."
+  serverURL = "Your waline serverURL" #????serverURL
+## ??????????????????
+[params.cc]
+    name = "??????-??????-???? 4.0 ??????"
+    link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+## ??????
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = "github"
+
+## ??????
+
+[menu]
+
+  [[menu.main]]
+    identifier = "tools"
+    name = "tools"
+    url = "/tools/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "archives"
+    url = "/archives/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 4
