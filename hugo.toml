@@ -38,7 +38,7 @@ disqusShortname = "yourdiscussshortname"  ## ????disqus??????utteranc????
 ## ?????????
 [params.image_cdn]
     enable = true
-    Host = "https://cdn.jsdelivr.net/gh/wjcroom/wjcimg@master"
+    Host = "https://cdn.jsdelivr.net/gh/wjcroom/wjcroom@master"
 [[params.links]]
   title = "主站-change-get date file frome mysite"
   name = "openwrt下广告屏蔽大师修复"
