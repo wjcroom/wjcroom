@@ -78,18 +78,18 @@ disqusShortname = "yourdiscussshortname"  ## ????disqus??????utteranc????
 
   [[menu.main]]
     identifier = "tools"
-    name = "tools"
+    name = "待定"
     url = "/tools/"
     weight = 2
 
   [[menu.main]]
     identifier = "archives"
-    name = "archives"
+    name = "目录"
     url = "/archives/"
     weight = 3
 
   [[menu.main]]
     identifier = "about"
-    name = "about"
-    url = "posts/about/"
+    name = "介绍"
+    url = "/about/"
     weight = 4
