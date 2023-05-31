@@ -1,5 +1,5 @@
 baseURL = 'http://hugo.ezdial.cn/'
-languageCode = 'zh-CN'
+defaultContentLanguage = "zh-hant"
 title = '雪落无痕'
 theme = 'maupassant'
 googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX
