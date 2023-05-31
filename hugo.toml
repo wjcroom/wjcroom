@@ -48,7 +48,10 @@ disqusShortname = "yourdiscussshortname"  ## ????disqus??????utteranc????
   title = "备份资源"
   name = "openwrt下广告屏蔽大师修复"
   url = "https://bak.ezdial.cn:8000/nasone/a"
-
+[[params.links]]
+  title = "站外指导"
+  name = "一些博客的问题"
+  url= "https://ferristale.com/recent-changes-230107/"
 ## ?????? 
 ## ?? utteranc??,???? https://utteranc.es/
 [params.utteranc]
