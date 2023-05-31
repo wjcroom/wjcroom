@@ -1,4 +1,4 @@
----
+F---
 title: "美妙系列-下载工具"
 date: 2023-05-29T11:37:57Z
 draft: true
@@ -6,11 +6,11 @@ draft: true
 我想不起啥名字来，只想到这个词美妙，既然美妙就且美且妙吧，那么是什么让人感觉如此美妙呢？
 未知和奇遇吧。
 这个系列第一个作品，远程下载
-![截图](img/aring1.jpg)
+![截图](static/aring1.jpg)
  aria2和freefrp组成一个下载工具，无论身在何处可以让家里的电脑下一个东西，也可以让自己的云主机去下一个东西。自己可以随时看看进度。掌握一下情况。
 步骤如下：
 ## 一、安装前端页面AriaNg
-用自己的静态文件吧，一个单网页的html，下载地址![AriaNG]()
+用自己的静态文件吧，一个单网页的html
 项目地址
 [https://github.com/mayswind/AriaNg/](https://github.com/mayswind/AriaNg/)
 #### Prebuilt release
@@ -21,7 +21,7 @@ Latest Release: [https://github.com/mayswind/AriaNg/releases](https://github.com
 在路由器，/www目录，新建了一个static存放，index.html文件
 然后，让路由frpc一下，指向frp2.freefrp.net
 ## 二、后端服务aria2(bin)
-给docker安装一下aria2 ![https://hub.docker.com/r/p3terx/aria2-pro](https://hub.docker.com/r/p3terx/aria2-pro)
+给docker安装一下aria2 [https://hub.docker.com/r/p3terx/aria2-pro](https://hub.docker.com/r/p3terx/aria2-pro)
     
     docker run -d \
     --name aria2-pro \
