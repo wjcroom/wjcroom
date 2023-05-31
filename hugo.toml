@@ -18,8 +18,8 @@ disqusShortname = "yourdiscussshortname"  ## ????disqus??????utteranc????
   name = "wjcroom"
 
 [params]
-  author = "noone"
-  subtitle = "where is me"
+  author = "wjcroom"
+  subtitle = "认真尝试"
   keywords = "golang,go,python,openwrt,synolog,nas"
   description = "synolog openwrt golang AndroidPython"
   busuanzi = true #?????????
@@ -77,14 +77,8 @@ disqusShortname = "yourdiscussshortname"  ## ????disqus??????utteranc????
 [menu]
 
   [[menu.main]]
-    identifier = "tools"
-    name = "待定"
-    url = "/tools/"
-    weight = 2
-
-  [[menu.main]]
     identifier = "archives"
-    name = "目录"
+    name = "归档"
     url = "/archives/"
     weight = 3
 
