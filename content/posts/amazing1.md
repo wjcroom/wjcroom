@@ -6,19 +6,49 @@ draft: true
 我想不起啥名字来，只想到这个词美妙，既然美妙就且美且妙吧，那么是什么让人感觉如此美妙呢？
 未知和奇遇吧。
 这个系列第一个作品，远程下载
-就是远程离线下载，aria2和freefrp组成一个远程下载系统，无论身在何处可以让家里的电脑下一个东西，也可以让自己的云主机去下一个东西。自己可以随时看看进度。掌握一下情况。
-然后，还可以把下载的东西，共享出来。
-有这样的需要，听我讲解一下。
-也可以直接来用我的，
+![截图](img/aring1.jpg)
+ aria2和freefrp组成一个下载工具，无论身在何处可以让家里的电脑下一个东西，也可以让自己的云主机去下一个东西。自己可以随时看看进度。掌握一下情况。
+步骤如下：
+## 一、安装前端页面AriaNg
+用自己的静态文件吧，一个单网页的html，下载地址![AriaNG]()
+项目地址
+[https://github.com/mayswind/AriaNg/](https://github.com/mayswind/AriaNg/)
+#### Prebuilt release
+Latest Release: [https://github.com/mayswind/AriaNg/releases](https://github.com/mayswind/AriaNg/releases)
+在线使用
+[http://ariang.mayswind.net/latest](http://ariang.mayswind.net/latest)
+
 在路由器，/www目录，新建了一个static存放，index.html文件
 然后，让路由frpc一下，指向frp2.freefrp.net
-给docker安装一下aria2
+## 二、后端服务aria2(bin)
+给docker安装一下aria2 ![https://hub.docker.com/r/p3terx/aria2-pro](https://hub.docker.com/r/p3terx/aria2-pro)
+    
+    docker run -d \
+    --name aria2-pro \
+    --restart unless-stopped \
+    --log-opt max-size=1m \
+    -e PUID=$UID \
+    -e PGID=$GID \
+    -e UMASK_SET=022 \
+    -e RPC_SECRET=<TOKEN> \
+    -e RPC_PORT=6800 \
+    -p 6800:6800 \
+    -e LISTEN_PORT=6888 \
+    -p 6888:6888 \
+    -p 6888:6888/udp \
+    -v $PWD/aria2-config:/config \
+    -v $PWD/aria2-downloads:/downloads \
+    p3terx/aria2-pro
+
 设置密码和端口
 好了，可以了。
-这也没啥美妙的
+这也没啥美妙的，
 只是有一瞬间，就静态网页，加上了后台服务，终于成功了，有那么一忽觉得，挺美好，其实后来要是细想也没啥用。
-微软chatgpt已经可以生成教程了，它告诉我，下载服务涉及隐私，注意安全，使用密码和使用加密传输。我们不用，因为我觉得不需要。万一需要我也可以用，但那是caddy在理想状态下的事。徒增烦恼。
+因为目前我一直闲着的nas，终于启用了一个小而美的功能，
+## 三、配置内网穿透工具frpc
 
+## 其他
+微软chatgpt已经可以生成教程了，它告诉我，下载服务涉及隐私，注意安全，使用密码和使用加密传输。我们不用，因为我觉得不需要。万一需要我也可以用，但那是caddy在理想状态下的事。徒增烦恼。
 静态网页提供一个完整的客户端，这是我许久以来的梦想，而且它，手机，电脑，都挺舒服的。如果有需要所有人都可以参考，它是怎么做到的。它叫
 AriaNG,它能放在任意地方，甚至APP，浏览器插件里。
 我就把它放在自己路由上吧。比较我有，我能远程看到它，
@@ -34,8 +64,7 @@ AriaNG,它能放在任意地方，甚至APP，浏览器插件里。
 我们都无法改变墙和围城，唯一做的仿佛是观看蚂蚁搬家的乐趣。今天阴着天，马上要神16上天。
 我的开张就是让一切琐碎变出一个美妙，而不是看起来美好。所以，我提到了，百度限速，版权墙。
 剩下的就是看看它咋办到的，上图，
+ 
 
-好的吧我不知道图咋办
-![截图][img/aring1.jpg]
 
 
