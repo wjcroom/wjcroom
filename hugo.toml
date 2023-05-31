@@ -1,5 +1,5 @@
 baseURL = 'http://hugo.ezdial.cn/'
-languageCode = 'zh-cn'
+languageCode = 'zh-hans'
 title = 'wjcroom-laodao'
 theme = 'maupassant'
 googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX
