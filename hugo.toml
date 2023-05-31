@@ -1,6 +1,6 @@
 baseURL = 'http://hugo.ezdial.cn/'
-languageCode = 'zh-hans'
-title = 'wjcroom-laodao'
+languageCode = 'zh-CN'
+title = '雪落无痕'
 theme = 'maupassant'
 googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX
 #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
