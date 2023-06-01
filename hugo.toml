@@ -90,3 +90,7 @@ disqusShortname = "yourdiscussshortname"  ## ????disqus??????utteranc????
     name = "介绍"
     url = "/about/"
     weight = 4
+[taxonomies]
+  tag = "tags"
+  series = "series"
+  category = "categories"
