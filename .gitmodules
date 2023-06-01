@@ -4,3 +4,4 @@
 [submodule "themes/maupassant"]
 	path = themes/maupassant
 	url = https://github.com/wjcroom/maupassant-hugo
+	branch = master
