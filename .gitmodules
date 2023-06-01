@@ -1,7 +1,3 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke
-[submodule "themes/maupassant"]
-	path = themes/maupassant
-	url = https://github.com/wjcroom/maupassant-hugo
-	branch = master
