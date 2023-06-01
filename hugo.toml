@@ -7,7 +7,7 @@ googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX
 ## ??????????false??eeeee
 preserveTaxonomyNames = true
 ## ????URL Path???
-disablePathToLower = true
+disablePathToLower = false
 
 hasCJKLanguage = true
 summaryLength = 140
