@@ -8,4 +8,4 @@ draft: true
 ![girel](https://cdn.jsdelivr.net/gh/wjcroom/wjcimg@master/index.jpeg)
 这个照片拍的挺适合这个状态
 在线codespace工作在master也不知道是不是需要push但是肯定要commit,弄着一个主题引用的目录工作了很久。结果还是失败。
-这次我来了新的分支。测试一下
+
