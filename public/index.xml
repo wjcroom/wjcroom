@@ -1,45 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>wjcroom-laodao</title>
+    <title>雪落无痕</title>
     <link>http://hugo.ezdial.cn/</link>
-    <description>Recent content on wjcroom-laodao</description>
+    <description>Recent content on 雪落无痕</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 26 May 2023 11:37:57 +0000</lastBuildDate><atom:link href="http://hugo.ezdial.cn/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-hans</language>
+    <lastBuildDate>Mon, 29 May 2023 11:37:57 +0000</lastBuildDate><atom:link href="http://hugo.ezdial.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>http://hugo.ezdial.cn/posts/about/</link>
+      <title>美妙系列-下载工具</title>
+      <link>http://hugo.ezdial.cn/posts/amazing1/</link>
+      <pubDate>Mon, 29 May 2023 11:37:57 +0000</pubDate>
+      
+      <guid>http://hugo.ezdial.cn/posts/amazing1/</guid>
+      <description>我想不起啥名字来，只想到这个词美妙，既然美妙就且美且妙吧，那么是什么让人感觉如此美妙呢？ 未知和奇遇吧。 这个系列第一个作品，远程下载 aria2和freefrp组成一个下载工具，无论身在何处可以让家里的电脑下一个东西，也可以让自己的云主机去下一个东西。自己可以随时看看进度。掌握一下情</description>
+    </item>
+    
+    <item>
+      <title>初遇</title>
+      <link>http://hugo.ezdial.cn/posts/first/</link>
+      <pubDate>Fri, 26 May 2023 12:16:42 +0000</pubDate>
+      
+      <guid>http://hugo.ezdial.cn/posts/first/</guid>
+      <description>有一天，我的在网上找到一个介绍caddy+filebrowser+hugo建立个人网站的博客，看过几遍后动手尝试了一下，没想到在祖国-中国大陆以外可以这样方便的放静态网页，写个人博客了。当然国内本来也可以，技术上完全没问题，只是审核太严，没有使用空间吧。我的目的呢，只是介绍一些简</description>
+    </item>
+    
+    <item>
+      <title>网站介绍</title>
+      <link>http://hugo.ezdial.cn/about/</link>
       <pubDate>Fri, 26 May 2023 11:37:57 +0000</pubDate>
       
-      <guid>http://hugo.ezdial.cn/posts/about/</guid>
-      <description></description>
+      <guid>http://hugo.ezdial.cn/about/</guid>
+      <description>这是一个实验的站点，由hugo和github+cloudflare提供技术支持，采用静态网页的形式，图片由一个cdn支持，不太顺滑请大家见谅, 更新了个评论中文-结果崩了。 这个照片拍的挺适合这个状态 在线codespace工作在master也不知道是不是需要push但是肯定要comm</description>
     </item>
     
     <item>
-      <title>20230526</title>
-      <link>http://hugo.ezdial.cn/posts/myothe/</link>
-      <pubDate>Fri, 26 May 2023 11:20:05 +0000</pubDate>
+      <title></title>
+      <link>http://hugo.ezdial.cn/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hugo.ezdial.cn/posts/myothe/</guid>
-      <description>我不故道怎么加图片 我第一次作MD</description>
+      <guid>http://hugo.ezdial.cn/archives/</guid>
+      <description>title: &amp;ldquo;归档&amp;rdquo; description: Python，Go和Java打杂师 type: archives</description>
     </item>
     
     <item>
-      <title>My First Post2</title>
-      <link>http://hugo.ezdial.cn/posts/my-first-post2/</link>
-      <pubDate>Fri, 26 May 2023 11:11:11 +0000</pubDate>
+      <title>搜索</title>
+      <link>http://hugo.ezdial.cn/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hugo.ezdial.cn/posts/my-first-post2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://hugo.ezdial.cn/posts/my-first-post/</link>
-      <pubDate>Fri, 26 May 2023 04:41:03 +0000</pubDate>
-      
-      <guid>http://hugo.ezdial.cn/posts/my-first-post/</guid>
+      <guid>http://hugo.ezdial.cn/search/</guid>
       <description></description>
     </item>
     

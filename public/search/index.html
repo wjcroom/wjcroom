@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="zh-hans">
 <head>
-	<meta name="generator" content="Hugo 0.112.3">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,17 +9,20 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>雪落无痕 | 认真尝试</title>
-    <meta property="og:title" content="雪落无痕 | 认真尝试">
-    <meta property="og:type" content="website">
+    <title>搜索 | 雪落无痕</title>
+    <meta property="og:title" content="搜索 - 雪落无痕">
+    <meta property="og:type" content="article">
+        
+        
     <meta name="Keywords" content="golang,go,python,openwrt,synolog,nas">
-    <meta name="description" content="synolog openwrt golang AndroidPython">
-    <meta property="og:url" content="http://hugo.ezdial.cn/">
+    <meta name="description" content="搜索页面">
+        
+    <meta name="author" content="wjcroom">
+    <meta property="og:url" content="http://hugo.ezdial.cn/search/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml" href="http://hugo.ezdial.cn/index.xml" title="雪落无痕" />
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -37,17 +39,15 @@
         <div class="col-group">
             <div class="site-name ">
                 
-                    <h1>
-                        <a id="logo" href="http://hugo.ezdial.cn/">
-                            雪落无痕
-                        </a>
-                    </h1>
+                    <a id="logo" href="http://hugo.ezdial.cn/">
+                        雪落无痕
+                    </a>
                 
                 <p class="description">认真尝试</p>
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="current" href="http://hugo.ezdial.cn/">首页</a>
+                    <a class="" href="http://hugo.ezdial.cn/">首页</a>
                     
                     <a  href="http://hugo.ezdial.cn/archives/" title="归档">归档</a>
                     
@@ -64,65 +64,70 @@
             <div class="col-group">
 
                 <div class="col-8" id="main">
-                    
-<div class="res-cons">
-    
-    
+                    <div class="res-cons">
+    <h3 class="archive-title">
+        搜索
+        <span class="keyword">哈哈</span>
+        的结果
+    </h3>
+
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="http://hugo.ezdial.cn/posts/amazing1/" title="美妙系列-下载工具" target="_blank">美妙系列-下载工具</a>
+                <a href="链接" target="_blank">标题</a>
             </h1>
         </header>
         
-  <time datetime="2023-05-29T11:37:57Z" class="post-meta meta-date dt-published">
-    2023年5月29日
-  </time>
+        <div class="post-content">
+            概要……
+            <p class="readmore"><a href="链接" target="_blank">阅读全文</a></p>
+        </div>
+    </article>
 
-
-<div class="post-meta meta-category">
-  <span>&nbsp;|</span>
-  
-    <a href='/categories/%E7%BE%8E%E5%A6%99' target="_blank">美妙</a>
-  
 </div>
 
+<script type="text/javascript">
 
-        <div class="post-content">
-            我想不起啥名字来，只想到这个词美妙，既然美妙就且美且妙吧，那么是什么让人感觉如此美妙呢？ 未知和奇遇吧。 这个系列第一个作品，远程下载 aria2和freefrp组成一个下载工具，无论身在何处可以让家里的电脑下一个东西，也可以让自己的云主机去下一个东西。自己可以随时看看进度。掌握一下情……
-        </div>
-        <p class="readmore"><a href="http://hugo.ezdial.cn/posts/amazing1/" target="_blank">阅读全文</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="http://hugo.ezdial.cn/posts/first/" title="初遇" target="_blank">初遇</a>
-            </h1>
-        </header>
-        
-  <time datetime="2023-05-26T12:16:42Z" class="post-meta meta-date dt-published">
-    2023年5月26日
-  </time>
+    var getUrlParameter = function getUrlParameter (sParam) {
+        var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
 
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
 
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+        }
+    };
 
-        <div class="post-content">
-            有一天，我的在网上找到一个介绍caddy+filebrowser+hugo建立个人网站的博客，看过几遍后动手尝试了一下，没想到在祖国-中国大陆以外可以这样方便的放静态网页，写个人博客了。当然国内本来也可以，技术上完全没问题，只是审核太严，没有使用空间吧。我的目的呢，只是介绍一些简……
-        </div>
-        <p class="readmore"><a href="http://hugo.ezdial.cn/posts/first/" target="_blank">阅读全文</a></p>
-    </article>
-    
-    
-    
+    $(document).ready(function () {
+        var q = getUrlParameter("q");
+        $("span.keyword").text(q);
+        $("article.post").remove();
+        $.ajax({
+            url: 'http:\/\/hugo.ezdial.cn\/index.xml',
+            dataType: "xml",
+            success: function (data) {
+                $(data).find("item").each(function () {
+                    var item = $(this);
+                    var title = item.find("title").text();
+                    if (title.toLowerCase().indexOf(q.toLowerCase()) >= 0) {
+                        var url = item.find("link").text();
+                        var searchItem = `<article class="post"><header><h1 class="post-title"><a href="` + url + `" target="_blank">` + title + `</a></h1></header>`;
+                        var pubDate = new Date(item.find("pubDate").text())
+                        searchItem += `<time class="post-meta meta-date">` + pubDate.getFullYear() + `-` + (pubDate.getMonth() + 1) + `-` + pubDate.getDate() + `</time>`;
+                        searchItem += `<div class="post-content">` + item.find("description").text() + `……<p class="readmore"><a href="` + url + `" target="_blank">"阅读全文"</a></p></div></article>`;
 
-
-
-
-
-</div>
+                        $("div.res-cons").append(searchItem);
+                    }
+                });
+            }
+        });
+    });
+</script>
 
                     <footer id="footer">
     <div>
@@ -144,6 +149,17 @@
 </footer>
 
 
+    
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 <a id="rocket" href="#top"></a>
 <script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>

@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on wjcroom-laodao</title>
+    <title>Tags on 雪落无痕</title>
     <link>http://hugo.ezdial.cn/tags/</link>
-    <description>Recent content in Tags on wjcroom-laodao</description>
+    <description>Recent content in Tags on 雪落无痕</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="http://hugo.ezdial.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-hans</language>
+    <lastBuildDate>Mon, 29 May 2023 11:37:57 +0000</lastBuildDate><atom:link href="http://hugo.ezdial.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>美妙</title>
+      <link>http://hugo.ezdial.cn/tags/%E7%BE%8E%E5%A6%99/</link>
+      <pubDate>Mon, 29 May 2023 11:37:57 +0000</pubDate>
+      
+      <guid>http://hugo.ezdial.cn/tags/%E7%BE%8E%E5%A6%99/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

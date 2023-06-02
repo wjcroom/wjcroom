@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>美妙 on 雪落无痕</title>
+    <link>http://hugo.ezdial.cn/series/%E7%BE%8E%E5%A6%99/</link>
+    <description>Recent content in 美妙 on 雪落无痕</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <lastBuildDate>Mon, 29 May 2023 11:37:57 +0000</lastBuildDate><atom:link href="http://hugo.ezdial.cn/series/%E7%BE%8E%E5%A6%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>美妙系列-下载工具</title>
+      <link>http://hugo.ezdial.cn/posts/amazing1/</link>
+      <pubDate>Mon, 29 May 2023 11:37:57 +0000</pubDate>
+      
+      <guid>http://hugo.ezdial.cn/posts/amazing1/</guid>
+      <description>我想不起啥名字来，只想到这个词美妙，既然美妙就且美且妙吧，那么是什么让人感觉如此美妙呢？ 未知和奇遇吧。 这个系列第一个作品，远程下载 aria2和freefrp组成一个下载工具，无论身在何处可以让家里的电脑下一个东西，也可以让自己的云主机去下一个东西。自己可以随时看看进度。掌握一下情</description>
+    </item>
+    
+  </channel>
+</rss>
