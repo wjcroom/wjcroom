@@ -9,7 +9,8 @@ categories: ["美妙"]
 这个系列第二个作品，聊天机器人接入监控移动报警
 世界上有很多聊天软件，于是诞生了很多负责聊天的机器人。
 本文只介绍最近刚入手的一款小而美的聊天服务器，支持一个更精简的聊天机器人
-目前文档很全在这里 https://doc.voce.chat/zh-cn
+目前文档很全在这里 
+[官方文档](https://doc.voce.chat/zh-cn)
 以下是视频介绍
  
 {{< bili "http://player.bilibili.com/player.html?aid=871254775&bvid=BV1EV4y1t72g&cid=1208975589&page=1" >}}
