@@ -12,7 +12,8 @@ categories: ["美妙"]
 目前文档很全在这里https://doc.voce.chat/zh-cn
 以下是视频介绍
 [test](http://pan.ezdial.cn/nasone/%E7%BE%A4%E6%99%96/20230724274002%20%28online-video-cutter.com%29%20%281%29.mp4)
-<video width="320" controls loop>
+<iframe src="//player.bilibili.com/player.html?aid=871254775&bvid=BV1EV4y1t72g&cid=1208975589&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><video width="320" controls loop>
+ 
   <source src="http://pan.ezdial.cn/nasone/%E7%BE%A4%E6%99%96/20230724274002%20%28online-video-cutter.com%29%20%281%29.mp4" type="video/mp4">
 
   <p>Your browser doesn't support HTML5 video. Here is
