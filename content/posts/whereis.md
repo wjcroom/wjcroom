@@ -19,7 +19,8 @@ categories: ["美妙"]
 [我网盘视频](http://pan.ezdial.cn/nasone/%e7%be%a4%e6%99%96/20230724274002%20%28online-video-cutter.com%29%20%281%29.mp4?v) 
 - 代码源1. [个人网盘](http://pan.ezdial.cn/nasone/群晖)
 - 代码源2. https://github.com/wjcroom/hi
- 学习步骤：
+
+- 学习步骤：
 1. 完成基本在vocechat-server的搭建
 https://doc.voce.chat/zh-cn/
 2. 了解机器人的用法
