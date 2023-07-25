@@ -1,6 +1,6 @@
 ---
 title: "美妙系列-VoceChat聊天机器人接入监控移动报警"
-date: 2023-05-29T11:37:57Z
+date: 2023-07-25T11:37:57Z
 draft:  false
 tags: ["美妙"]
 series: ["美妙"]
