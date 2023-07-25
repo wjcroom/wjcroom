@@ -8,6 +8,15 @@
     <language>zh-hans</language>
     <lastBuildDate>Mon, 29 May 2023 11:37:57 +0000</lastBuildDate><atom:link href="http://hugo.ezdial.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>美妙系列-VoceChat聊天机器人接入监控移动报警</title>
+      <link>http://hugo.ezdial.cn/posts/whereis/</link>
+      <pubDate>Mon, 29 May 2023 11:37:57 +0000</pubDate>
+      
+      <guid>http://hugo.ezdial.cn/posts/whereis/</guid>
+      <description>这个系列第二个作品，聊天机器人接入监控移动报警 世界上有很多聊天软件，于是诞生了很多负责聊天的机器人。 本文只介绍最近刚入手的一款小而美的聊天服务器，支持一个更精简的聊天机器人 目前文档很全在这里https://doc.voce.chat/zh-cn 以下是视频介绍 test 代码源1. http://pan.ezdial.cn/nasone/%e7%be%a4%e6%99%96 代码源2</description>
+    </item>
+    
+    <item>
       <title>美妙系列-下载工具</title>
       <link>http://hugo.ezdial.cn/posts/amazing1/</link>
       <pubDate>Mon, 29 May 2023 11:37:57 +0000</pubDate>

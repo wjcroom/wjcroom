@@ -3,4 +3,5 @@
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke
 [submodule "themes/maupassant"]
 	path = themes/maupassant
-	url = https://www.github.com/wjcroom/maupassant-hugo
+	url = https://github.com/wjcroom/maupassant-hugo.git
+	branch = master
