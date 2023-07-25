@@ -21,11 +21,11 @@ categories: ["美妙"]
 - 代码源2. https://github.com/wjcroom/hi
 
 - 学习步骤：
-1. 完成基本在vocechat-server的搭建
+1. 完成基本功能vocechat-server的搭建
 https://doc.voce.chat/zh-cn/
 2. 了解机器人的用法
 https://doc.voce.chat/zh-cn/bot/bot-and-webhook
 3. 通过swagger工具创建和使用一些api
 http://yourserver.ip:3000/api/swagger
-4. 了解和使用自己摄像头在事件通知，日志记录方式
+4. 了解和使用自己摄像头的事件通知，日志记录方式
 5. 使用一种登陆摄像头的方法捕获移动事件
