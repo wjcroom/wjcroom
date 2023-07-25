@@ -13,9 +13,7 @@ categories: ["美妙"]
 以下是视频介绍
 [test](http://player.bilibili.com/player.html?aid=871254775&bvid=BV1EV4y1t72g&cid=1208975589&page=1)
 
-{{<  myshortcode `
-<iframe src="//player.bilibili.com/player.html?aid=871254775&bvid=BV1EV4y1t72g&cid=1208975589&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><video width="320" controls loop>
- ` >}}
+{{< video autoplay="true" loop="true" src="//player.bilibili.com/player.html?aid=871254775&bvid=BV1EV4y1t72g&cid=1208975589&page=1" >}}
 
 代码源1. http://pan.ezdial.cn/nasone/%e7%be%a4%e6%99%96
 代码源2. https://github.com/wjcroom/hi
