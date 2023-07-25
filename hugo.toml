@@ -1,7 +1,7 @@
 baseURL = 'http://hugo.ezdial.cn/'
 defaultContentLanguage = "zh-hans"
 title = '雪落无痕'
-theme = 'maupassant'
+theme = 'theme/maupassant'
 googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX
 #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
 ##  
