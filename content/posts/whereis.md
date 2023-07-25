@@ -12,11 +12,9 @@ categories: ["美妙"]
 目前文档很全在这里https://doc.voce.chat/zh-cn
 以下是视频介绍
  
- [http://player.bilibili.com/player.html?aid=871254775&bvid=BV1EV4y1t72g&cid=1208975589&page=1](http://pan.ezdial.cn/nasone/%e7%be%a4%e6%99%96/20230724274002%20%28online-video-cutter.com%29%20%281%29.mp4?v)
+ [我网盘](http://pan.ezdial.cn/nasone/%e7%be%a4%e6%99%96/20230724274002%20%28online-video-cutter.com%29%20%281%29.mp4?v)
 {{< bili "http://player.bilibili.com/player.html?aid=871254775&bvid=BV1EV4y1t72g&cid=1208975589&page=1" >}}
-=======
  
-{{< bili "//player.bilibili.com/player.html?aid=871254775&bvid=BV1EV4y1t72g&cid=1208975589&page=1" >}}
  
  
 代码源1. http://pan.ezdial.cn/nasone/%e7%be%a4%e6%99%96
